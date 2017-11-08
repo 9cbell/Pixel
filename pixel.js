@@ -56,7 +56,7 @@ function Pixel(r,g,b){
     };
 
     this.grayScale = function(n){
-        //code in here
+        return(this.red + this.green + this.blue) / 3;
     };
 
 
